@@ -1,0 +1,142 @@
+.background
+{
+    background-image: url("../img/events-heavenly-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 660px;
+    width: 100%;
+
+}
+.overlay
+{
+    background-color: rgba(214, 46, 51 , 0.6);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+.main-text
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .main-text .para{
+        position: absolute;
+        padding-top: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.main-text h2{
+    font-size: 60px;
+}
+
+#vertical-container
+{  
+        position: relative;
+        z-index: 99999; 
+}
+
+#menu-box
+{
+    background-color: #414658;
+    float: left;
+    padding: 10px;
+    position: fixed;
+    display: none;
+    height: 1000px;
+ 
+   
+}#menu-box ul li a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}#menu-box ul li a:hover
+{
+    color:red;
+}
+
+#vertical-container span{
+    cursor: pointer;
+    color:white;
+    font-size: 25px;
+}
+#vertical-container #close{
+    cursor: pointer;
+    color:white;
+    float: right;
+    font-size: 25px; 
+}
+#openicon{
+    position: absolute;
+    top:300px;
+    left:0px;
+    float: left;
+    
+}
+#singer{
+    width: 50%;
+ 
+    margin: auto;
+}
+#singer h2{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+#singerp1,#singerp2,#singerp3,#singerp4{
+    padding: 10px;
+    background-color: #ccc;
+    display:none
+
+}
+#events{
+    background-image: url("../img/invitation-2508607__340.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    position: relative;
+
+}
+#overlaybackground{
+    background-color: rgba(214, 46, 51 , 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute
+    
+}.col-md-3{
+    
+    height: 150px;
+    border: 2px solid white;
+    
+    
+}
+#countDay,#countHour,#countMiunte,#countSecond,span{
+    font-size: 24px;
+   margin-top: 35px;
+   margin-left: 30px;
+
+} #contact form textarea {
+
+    height:200px;
+    resize: vertical;
+}
+.con-social i{
+    margin-top: 60px;
+    color: #777;
+    border: 1px solid #777;
+    padding: 10px;
+}.con-social i:hover{
+    color: white;
+    background-color: rgb(223, 33, 33);
+}
